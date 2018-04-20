@@ -15,15 +15,15 @@ github上的设计代码，通过plantuml网站在线解析的方法
 https://raw.githubusercontent.com/maobuji/plantuml-example/master/example.puml
 
 
-3.使用
+3.使用plantuml提供的转换器转换为图片
 ````xml
 http://www.plantuml.com/plantuml/proxy?src=后边是文件链接
 ````
 
-例如：
+例如以下链接，返回的就是一个png，可以直接用于网页图片的嵌入
 http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/maobuji/plantuml-example/master/example.puml
 
-效果如下：
+效果如下：<br>
 ![example.puml](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/maobuji/plantuml-example/master/example.puml)
 
 
