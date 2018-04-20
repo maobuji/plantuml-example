@@ -1,7 +1,7 @@
 
 http://www.plantuml.com 官方网站
 
-http://www.plantuml.com/plantuml/from 在线设计器
+http://www.plantuml.com/plantuml/form 在线设计器
 
 
 github上的设计代码，通过plantuml网站在线解析的方法，实现图片展现<br>
