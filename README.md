@@ -4,7 +4,7 @@ http://www.plantuml.com 官方网站
 http://www.plantuml.com/plantuml/from 在线设计器
 
 
-github上的设计代码，通过plantuml网站在线解析的方法<br>
+github上的设计代码，通过plantuml网站在线解析的方法，实现图片展现<br>
 1.添加一个任何后缀的文件，这里以example.puml举例，内容如下：
 ````xml
   @startuml
