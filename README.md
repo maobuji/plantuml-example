@@ -1,8 +1,8 @@
 
-http://www.plantuml.com 官方网站
-http://www.plantuml.com/plantuml/form 在线设计器
+http://www.plantuml.com 官方网站<br>
+http://www.plantuml.com/plantuml/form 在线设计器<br>
 
-#将plantuml嵌入github文档中<br>
+# 将plantuml嵌入github文档中<br>
 
 ### 在github上提交plantuml文件
 github上的设计代码，通过plantuml网站在线解析的方法，实现图片展现<br>
@@ -16,7 +16,7 @@ github上的设计代码，通过plantuml网站在线解析的方法，实现图
 https://raw.githubusercontent.com/maobuji/plantuml-example/master/example.puml
 
 
-###方法1：直接引用（只能是png，且可能存在缓存问题，优点是简单）<br>
+### 方法1：直接引用（只能是png，且可能存在缓存问题，优点是简单）<br>
 
 使用plantuml提供的转换器转换为图片<br>
 ````xml
@@ -29,7 +29,7 @@ http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mao
 效果如下：<br>
 ![example.puml](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/maobuji/plantuml-example/master/example.puml)
 
-###方法2：间接引用<br>
+### 方法2：间接引用<br>
 
 1.访问在线编辑器,使用!includeurl进行一次转换,链接地址就用之前的uml文件地址
 ````
@@ -43,4 +43,15 @@ http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mao
 
 3.将其当作图片嵌入到github中。
 
+# 下载jar包在本地使用<br>
+![jar包下载地址](https://sourceforge.net/projects/plantuml/files/latest/download?source=typ_redirect)
+````
+// centos使用前需要安装图形组件，否则会报找不到/usr/bin/dot错误
+yum install graphviz
 
+// 生成png
+java -jar plantuml.jar /tmp/text.uml
+
+// 生成生成svg
+java -jar plantuml.jar /tmp/text.uml -tsvg
+````
