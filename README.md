@@ -44,7 +44,7 @@ http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mao
 3.将其当作图片嵌入到github中。
 
 # 下载jar包在本地使用<br>
-![jar包下载地址](https://sourceforge.net/projects/plantuml/files/latest/download?source=typ_redirect)
+![jar包下载地址](https://jaist.dl.sourceforge.net/project/plantuml/plantuml.jar)
 ````
 // centos使用前需要安装图形组件，否则会报找不到/usr/bin/dot错误
 yum install graphviz
